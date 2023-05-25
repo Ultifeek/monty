@@ -39,7 +39,7 @@ void _push(stack_t **doubly, unsigned int cline)
 
 /**
  * _pall - To prints all values on the stack
- * @doubly: head of the linked list
+ * @doubly: linked list head
  * @cline: line numbers
  * Return: nothing
  */
@@ -59,7 +59,7 @@ void _pall(stack_t **doubly, unsigned int cline)
 
 /**
  * _pint - function to prints the value at the top of the stack
- * @doubly: head of the linked list
+ * @doubly: linked list head
  * @cline: line number
  * Return: nothing
  */
@@ -80,9 +80,9 @@ void _pint(stack_t **doubly, unsigned int cline)
 
 /**
  * _pop - To removes the top element of the stack
- * @doubly: head of the linked list
+ * @doubly: linked list head
  * @cline: line number
- * Return: no return
+ * Return: nothing
  */
 void _pop(stack_t **doubly, unsigned int cline)
 {
@@ -103,7 +103,7 @@ void _pop(stack_t **doubly, unsigned int cline)
  * _swap - swaps the top two elements of the stack
  * @doubly: head of the linked list
  * @cline: line number
- * Return: no return
+ * Return: nothing
  */
 void _swap(stack_t **doubly, unsigned int cline)
 {

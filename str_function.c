@@ -3,7 +3,7 @@
  * _strcmp - Function that compares two strings
  * @s1: type str compared
  * @s2: type str compared
- * Return: 0 if s1 and s2 are equals
+ * Return: 0 if s1 and s2 are equal
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -19,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * _sch - search if a char is inside a string
+ * _sch - search if a char is inside a strg
  * @s: string to review
  * @c: char to find
  * Return: 1 if success 0 if not
@@ -44,8 +44,8 @@ int _sch(char *s, char c)
 
 /**
  * _strtoky - function that cut a string into tokens depending of the delimit
- * @s: string to cut in parts
- * @d: delimiters
+ * @s: string to cut in part
+ * @d: delimiter
  * Return: first partition
  */
 char *_strtoky(char *s, char *d)

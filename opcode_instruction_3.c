@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
- * _div - To divides the second element by the top element
- * @doubly: The linked list head
+ * _div - To divides the second element by the top element of the stack
+ * @doubly: linked list head
  * @cline: line number;
- * Return: no return
+ * Return: nothing
  */
 void _div(stack_t **doubly, unsigned int cline)
 {
@@ -36,10 +36,10 @@ void _div(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _mul - To multiplies the top element to the second top element
- * @doubly: head of the linked list
+ * _mul - To multiplies the top element to the second top element of the stack
+ * @doubly: linked list head
  * @cline: line number;
- * Return: no return
+ * Return: nothing
  */
 void _mul(stack_t **doubly, unsigned int cline)
 {
@@ -65,9 +65,9 @@ void _mul(stack_t **doubly, unsigned int cline)
 
 /**
  * _mod - function to computes the rest of the division of the second element
- * @doubly: head of the linked list
+ * @doubly: linked list head
  * @cline: line number;
- * Return: no return
+ * Return: nothing
  */
 void _mod(stack_t **doubly, unsigned int cline)
 {

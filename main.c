@@ -3,7 +3,7 @@
 global_t vglo;
 
 /**
- * free_vglo - To free global variable
+ * free_vglo - frees the global variable
  * Return: nothing
  */
 void free_vglo(void)
@@ -16,7 +16,7 @@ void free_vglo(void)
 /**
  * start_vglo - function to initializes the global variables
  * @fd: file descriptor
- * Return: no return
+ * Return: nothing
  */
 void start_vglo(FILE *fd)
 {

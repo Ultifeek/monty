@@ -3,16 +3,16 @@
 Tasks
 
 0. push, pall
-Implement the push and pall opcodes
+Implement the push and pall opcodes.
 
 1. pint
-Implement the pint opcode
+Implement the pint opcode.
 
 2. pop
-Implement the pop opcode
+Implement the pop opcode.
 
 3. swap
 Implement the swap opcode.
 
 4. add
-Implement the add opcode
+Implement the add opcode.

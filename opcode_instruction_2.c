@@ -2,9 +2,9 @@
 
 /**
  * _queue - To sets the format of the data to a queue (FIFO)
- * @doubly: head of the linked list
+ * @doubly: linked list head
  * @cline: line number;
- * Return: no return
+ * Return: nothing
  */
 void _queue(stack_t **doubly, unsigned int cline)
 {
@@ -57,8 +57,8 @@ void _add(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _nop - function to does nothing
- * @doubly: The linked list head
+ * _nop - function to doesn't do anythinhg
+ * @doubly: linked list head
  * @cline: line number;
  * Return: nothing
  */
