@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * _push - pushes an element to the stack
+ * _push - function to pushes an element to the stack
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return
@@ -38,10 +38,10 @@ void _push(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pall - prints all values on stack
+ * _pall - To prints all values on the stack
  * @doubly: head of the linked list
  * @cline: line numbers
- * Return: nothing
+ * Return: no return
  */
 void _pall(stack_t **doubly, unsigned int cline)
 {
@@ -58,7 +58,7 @@ void _pall(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pint - prints the value at the top of the stack
+ * _pint - function to prints the value at the top of the stack
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return
@@ -79,7 +79,7 @@ void _pint(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pop - removes the top element of the stack
+ * _pop - To removes the top element of the stack
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return

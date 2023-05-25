@@ -3,8 +3,8 @@
 global_t vglo;
 
 /**
- * free_vglo - frees the global variables
- * Return: nothing
+ * free_vglo - To frees the global variables
+ * Return: no return
  */
 void free_vglo(void)
 {
@@ -14,9 +14,9 @@ void free_vglo(void)
 }
 
 /**
- * start_vglo - initializes the global variables
+ * start_vglo - function to initializes the global variables
  * @fd: file descriptor
- * Return: nothing
+ * Return: no return
  */
 void start_vglo(FILE *fd)
 {
@@ -29,8 +29,7 @@ void start_vglo(FILE *fd)
 }
 
 /**
- * check_input - checks if the file exists and if the file can
- * be opened
+ * check_input - function to check input
  * @argc: argument count
  * @argv: argument vector
  * Return: file struct
@@ -52,13 +51,11 @@ FILE *check_input(int argc, char *argv[])
 		dprintf(2, "Error: Can't open file %s\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
-
 	return (fd);
 }
 
 /**
- * main - Entry point
- *
+ * main - main function
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 on success
