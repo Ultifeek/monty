@@ -57,10 +57,10 @@ void _add(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _nop - function to doesn't do anythinhg
- * @doubly: head of the linked list
+ * _nop - function to does nothing
+ * @doubly: The linked list head
  * @cline: line number;
- * Return: no return
+ * Return: nothing
  */
 void _nop(stack_t **doubly, unsigned int cline)
 {

@@ -2,9 +2,9 @@
 
 /**
  * _push - function to pushes an element to the stack
- * @doubly: head of the linked list
+ * @doubly: linked list head
  * @cline: line number
- * Return: no return
+ * Return: nothing
  */
 void _push(stack_t **doubly, unsigned int cline)
 {
@@ -41,7 +41,7 @@ void _push(stack_t **doubly, unsigned int cline)
  * _pall - To prints all values on the stack
  * @doubly: head of the linked list
  * @cline: line numbers
- * Return: no return
+ * Return: nothing
  */
 void _pall(stack_t **doubly, unsigned int cline)
 {
@@ -61,7 +61,7 @@ void _pall(stack_t **doubly, unsigned int cline)
  * _pint - function to prints the value at the top of the stack
  * @doubly: head of the linked list
  * @cline: line number
- * Return: no return
+ * Return: nothing
  */
 void _pint(stack_t **doubly, unsigned int cline)
 {

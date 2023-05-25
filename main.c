@@ -3,8 +3,8 @@
 global_t vglo;
 
 /**
- * free_vglo - To frees the global variables
- * Return: no return
+ * free_vglo - To free global variable
+ * Return: nothing
  */
 void free_vglo(void)
 {
